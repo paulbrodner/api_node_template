@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  if environments.length
+    table.table.table-bordered.table-hover
+      thead.thead-dark
+        tr
+          th Name
+          th Branch
+          th Pods
+          th Author
+          th Created
+      each env in environments
+        tr
+          td= env.name
+          td= env.branch
+          td= env.pods
+          td= env.author
+          td= env.created
+  else
+    p No environments yet :(

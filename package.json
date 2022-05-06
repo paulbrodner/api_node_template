@@ -1,0 +1,19 @@
+{
+  "name": "soul",
+  "version": "1.0.0",
+  "description": "List test environments",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\"",
+    "lint": "eslint ."
+  },
+  "author": "Paul Brodner",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "pug": "^3.0.2",
+    "sqlite3": "^4.2.0"
+  }
+}
